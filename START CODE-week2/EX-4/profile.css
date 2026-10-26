@@ -5,10 +5,7 @@ body {
     align-items: center;
     background-color: gray;
 }
-.card{
-    background-color: white;
-    padding:  50px;
-}
+
 .top-row {
     display: flex;
     align-items: center;
@@ -25,7 +22,7 @@ body {
     height: 110px;
     border-radius: 50%;
     object-fit: cover;
-    border: 4px solid white;
+    border: 4px solid blue;
     box-shadow: 0 4px 14px rgba(0, 0, 0, 0.1);
 }
 
@@ -33,18 +30,18 @@ body {
     font-size: 22px;
     font-weight: 700;
     color: red;
-    margin-bottom: 4px;
+    margin-top: 1px;
 }
 
 .role {
-    font-size: 0.85rem;
+    font-size: 15px;
     font-weight: 500;
     color: blue;
-    margin-bottom: 16px;
+    margin-bottom: 12px;
 }
 
 .bio {
-    font-size: 0.9rem;
+    font-size: 16px;
     line-height: 1.5;
     color: black;
     margin: 0 8px 24px;
@@ -53,7 +50,7 @@ body {
 .btn {
     width: 100%;
     padding: 12px 20px;
-    font-size: 0.95rem;
+    font-size: 15.5px;
     font-weight: 600;
     border-radius: 12px;
     cursor: pointer;
@@ -83,10 +80,52 @@ body {
 }
 .stat-num {
     font-weight: 700;
-    font-size: 18ox;
+    font-size: 18px;
 }
 
 .stat-text {
     font-size: 14.5px;
     color: gray;
+}
+.tiktok{
+    color: gray;
+    font-size: 12px;
+    border: 2px solid gray;
+    border-radius: 12px;
+    text-decoration: none;
+    padding-left: 5px;
+    padding-right: 4px;
+}
+.highlights-track {
+    display: flex;
+    gap: 14px;
+    overflow-x: auto;
+    padding-bottom: 4px;
+    gap:20px;
+}
+
+
+.highlight-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-shrink: 0;
+}
+
+.highlight-circle {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: white;
+    border: solid blue;
+}
+
+.highlight-label {
+    font-size: 14px;
+    color: black;
+    max-width: 58px;
+    text-align: center;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
 }
