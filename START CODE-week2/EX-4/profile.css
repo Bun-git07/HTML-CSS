@@ -22,6 +22,7 @@ body {
     height: 110px;
     border-radius: 50%;
     object-fit: cover;
+    
     border: 4px solid blue;
     box-shadow: 0 4px 14px rgba(0, 0, 0, 0.1);
 }
@@ -120,12 +121,3 @@ body {
     border: solid blue;
 }
 
-.highlight-label {
-    font-size: 14px;
-    color: black;
-    max-width: 58px;
-    text-align: center;
-    overflow: hidden;
-    text-overflow: ellipsis;
-    white-space: nowrap;
-}
