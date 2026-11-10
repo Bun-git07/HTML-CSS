@@ -1,0 +1,131 @@
+body {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: gray;
+}
+
+.top-row {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;
+    margin-bottom: 16px;
+}
+.profile-pic{
+    flex-shrink: 0;
+    margin: 0;
+}
+.profile-img {
+    width: 110px;
+    height: 110px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 4px solid blue;
+    box-shadow: 0 4px 14px rgba(0, 0, 0, 0.1);
+}
+
+.name {
+    font-size: 22px;
+    font-weight: 700;
+    color: red;
+    margin-top: 1px;
+}
+
+.role {
+    font-size: 15px;
+    font-weight: 500;
+    color: blue;
+    margin-bottom: 12px;
+}
+
+.bio {
+    font-size: 16px;
+    line-height: 1.5;
+    color: black;
+    margin: 0 8px 24px;
+}
+
+.btn {
+    width: 100%;
+    padding: 12px 20px;
+    font-size: 15.5px;
+    font-weight: 600;
+    border-radius: 12px;
+    cursor: pointer;
+    background-color: blue;
+    color: #ffffff;
+    transition: all 0.2s ease-in-out;
+}
+
+.btn:hover {
+    background-color: navy;
+    transform: translateY(-1px);
+    box-shadow: 0 6px 16px -2px rgba(37, 99, 235, 0.4);
+}
+
+.stats-row {
+    display: flex;
+    flex: 1;
+    justify-content: space-around;
+    gap: 16px;
+}
+
+.stat-box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+.stat-num {
+    font-weight: 700;
+    font-size: 18px;
+}
+
+.stat-text {
+    font-size: 14.5px;
+    color: gray;
+}
+.tiktok{
+    color: gray;
+    font-size: 12px;
+    border: 2px solid gray;
+    border-radius: 12px;
+    text-decoration: none;
+    padding-left: 5px;
+    padding-right: 4px;
+}
+.highlights-track {
+    display: flex;
+    gap: 14px;
+    overflow-x: auto;
+    padding-bottom: 4px;
+    gap:20px;
+}
+
+
+.highlight-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-shrink: 0;
+}
+
+.highlight-circle {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: white;
+    border: solid blue;
+}
+
+.highlight-label {
+    font-size: 14px;
+    color: black;
+    max-width: 58px;
+    text-align: center;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
