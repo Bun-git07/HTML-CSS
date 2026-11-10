@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- SIDEBAR -->
+    <aside class="sidebar">
+        <div class="profile">
+            <img src="https://tse1.mm.bing.net/th/id/OIP.Pvc0wk2u76evcoyVpeRsrQHaHE?r=0&rs=1&pid=ImgDetMain&o=7&rm=3" alt="Max" class="avatar">
+            <h3>Max Verstappen</h3>
+            <p>Batch 2021</p>
+        </div>
+
+        <nav class="nav">
+            <a href="#" class="active">Dashboard</a>
+            <a href="#">Courses</a>
+            <a href="#">All Courses</a>
+            <a href="#">New Course</a>
+            <a href="#">Calendars</a>
+            <a href="#">Events</a>
+            <a href="#">Settings</a>
+            <a href="#">Finance</a>
+        </nav>
+
+        <a href="#" class="logout-btn">Logout</a>
+    </aside>
+
+    <!-- MAIN -->
+    <main class="content">
+
+        <!-- SEARCH -->
+        <div class="topbar">
+            <input type="text" placeholder="Search here...">
+        </div>
+
+        <div class="grid">
+
+            <!-- LEFT SIDE -->
+            <section class="col-left">
+                <h2>Student Status</h2>
+
+                <!-- 3 CARDS -->
+                <div class="row">
+                    <div class="card stat">
+                        <div>
+                            <h4>Present Class</h4>
+                            <p class="tag text-white">● Very Good</p>
+                        </div>
+                        <div class="circle c-white">80%</div>
+                    </div>
+
+                    <div class="card stat">
+                        <div>
+                            <h4>Home Work</h4>
+                            <p class="tag text-light-gray">● More Practice</p>
+                        </div>
+                        <div class="circle c-light-gray">70%</div>
+                    </div>
+
+                    <div class="card stat">
+                        <div>
+                            <h4>Project Submit</h4>
+                            <p class="tag text-mid-gray">● Poor</p>
+                        </div>
+                        <div class="circle c-mid-gray">60%</div>
+                    </div>
+                </div>
+
+                <!-- PROGRESS CHART -->
+                <div class="card">
+                    <div class="card-header">
+                        <h4>Student Progress</h4>
+                        <div class="tabs">
+                            <span>Weekly</span>
+                            <span class="active-tab">Monthly</span>
+                            <span>Yearly</span>
+                        </div>
+                    </div>
+
+                    <!-- MONOCHROME BAR CHART -->
+                    <div class="bar-chart">
+                        <div class="bar-group">
+                            <div class="bar dark" style="height: 60px;"></div>
+                            <div class="bar light" style="height: 40px;"></div>
+                            <span>Jan</span>
+                        </div>
+                        <div class="bar-group">
+                            <div class="bar dark" style="height: 75px;"></div>
+                            <div class="bar light" style="height: 55px;"></div>
+                            <span>Feb</span>
+                        </div>
+                        <div class="bar-group">
+                            <div class="bar dark" style="height: 65px;"></div>
+                            <div class="bar light" style="height: 80px;"></div>
+                            <span>Mar</span>
+                        </div>
+                        <div class="bar-group">
+                            <div class="bar dark" style="height: 50px;"></div>
+                            <div class="bar light" style="height: 90px;"></div>
+                            <span>Apr</span>
+                        </div>
+                        <div class="bar-group">
+                            <div class="bar dark" style="height: 45px;"></div>
+                            <div class="bar light" style="height: 75px;"></div>
+                            <span>May</span>
+                        </div>
+                        <div class="bar-group">
+                            <div class="bar dark" style="height: 40px;"></div>
+                            <div class="bar light" style="height: 60px;"></div>
+                            <span>Jun</span>
+                        </div>
+                        <div class="bar-group">
+                            <div class="bar dark" style="height: 55px;"></div>
+                            <div class="bar light" style="height: 45px;"></div>
+                            <span>Jul</span>
+                        </div>
+                        <div class="bar-group">
+                            <div class="bar dark" style="height: 60px;"></div>
+                            <div class="bar light" style="height: 50px;"></div>
+                            <span>Aug</span>
+                        </div>
+                        <div class="bar-group">
+                            <div class="bar dark" style="height: 70px;"></div>
+                            <div class="bar light" style="height: 65px;"></div>
+                            <span>Sep</span>
+                        </div>
+                        <div class="bar-group">
+                            <div class="bar dark" style="height: 80px;"></div>
+                            <div class="bar light" style="height: 75px;"></div>
+                            <span>Oct</span>
+                        </div>
+                        <div class="bar-group">
+                            <div class="bar dark" style="height: 65px;"></div>
+                            <div class="bar light" style="height: 85px;"></div>
+                            <span>Nov</span>
+                        </div>
+                        <div class="bar-group">
+                            <div class="bar dark" style="height: 50px;"></div>
+                            <div class="bar light" style="height: 70px;"></div>
+                            <span>Dec</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- TOP STUDENTS -->
+                <div class="card">
+                    <h4>There are Top Student's Progress</h4>
+                    <div class="row students">
+                        <div class="student">
+                            <span>82%</span>
+                            <img src="https://tse1.mm.bing.net/th/id/OIP.T7OAXuJ8QK9qrnjE7ExskgHaJS?r=0&rs=1&pid=ImgDetMain&o=7&rm=3" alt="Student">
+                        </div>
+                        <div class="student">
+                            <span>70%</span>
+                            <img src="https://tse2.mm.bing.net/th/id/OIP.tElajJPEu20z_gFgZWw18AHaJQ?r=0&rs=1&pid=ImgDetMain&o=7&rm=3" alt="Student">
+                        </div>
+                        <div class="student">
+                            <span>69%</span>
+                            <img src="https://i.pinimg.com/736x/b1/6c/a0/b16ca051f3f73fefdbfbf1e877644f27.jpg?nii=t" alt="Student">
+                        </div>
+                        <div class="student">
+                            <span>60%</span>
+                            <img src="https://i.pinimg.com/736x/19/7c/c4/197cc47de5d20681a0c5b561e7715105.jpg" alt="Student">
+                        </div>
+                        <div class="student">
+                            <span>55%</span>
+                            <img src="https://i.pinimg.com/originals/10/a6/7c/10a67cb6478fe2792637b0b1d5a0951d.jpg" alt="Student">
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- RIGHT SIDE -->
+            <section class="col-right">
+
+                <!-- MENTOR -->
+                <div class="card mentor">
+                    <img src="https://imagedelivery.net/LBWXYQ-XnKSYxbZ-NuYGqQ/08e9591b-675d-4330-84c9-e6859621ae00/avatarhd" alt="senna" class="avatar-lg">
+                    <h3>Aryton Senna</h3>
+                    <p class="sub">AI Mentor</p>
+                    <div class="mentor-info">
+                        <div>
+                            <p>Experience</p>
+                            <strong>10 years +</strong>
+                        </div>
+                        <div>
+                            <p>Students</p>
+                            <strong>4000 +</strong>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- CALENDAR -->
+                <div class="card">
+                    <h4>November</h4>
+                    <div class="calendar">
+                        <span>Mo</span><span>Tu</span><span>We</span><span>Th</span><span>Fr</span><span>Sa</span><span>Su</span>
+                        <span class="mute">28</span><span class="mute">29</span><span class="mute">30</span><span
+                            class="mute">31</span>
+                        <span>1</span><span>2</span><span>3</span>
+                        <span>4</span><span>5</span><span>6</span><span>7</span><span>8</span><span>9</span><span>10</span>
+                        <span class="today">11</span><span>12</span><span>13</span><span>14</span><span>15</span><span>16</span><span>17</span>
+                        <span>18</span><span>19</span><span>20</span><span>21</span><span
+                            >22</span><span>23</span><span>24</span>
+                        <span>25</span><span>26</span><span>27</span><span>28</span><span>29</span><span>30</span><span
+                            class="mute">1</span>
+                    </div>
+                </div>
+
+                <!-- EVENT -->
+                <div class="card event">
+                    <div class="event-date">
+                        <strong>05</strong>
+                        <small>Dec</small>
+                    </div>
+                    <div>
+                        <h4>CIW</h4>
+                        <p class="sub">Ticket sales: 50/350</p>
+                    </div>
+                </div>
+
+            </section>
+        </div>
+    </main>
+
+</body>
+
+</html>
