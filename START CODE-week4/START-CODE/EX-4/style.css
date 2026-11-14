@@ -33,7 +33,6 @@ body {
     height: 50px;
     border-radius: 50%;
     border: 1px solid #444444;
-    filter: grayscale(100%);
 }
 
 .profile h3 {
@@ -272,7 +271,6 @@ body {
     width: 30px;
     height: 30px;
     border-radius: 50%;
-    filter: grayscale(100%);
     border: 1px solid #333333;
 }
 
@@ -286,7 +284,6 @@ body {
     height: 65px;
     border-radius: 50%;
     margin-bottom: 6px;
-    filter: grayscale(100%);
     border: 1px solid #444444;
 }
 
