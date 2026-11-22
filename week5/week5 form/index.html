@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Create Account</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <form class="signup-form" action="#" method="POST">
+        <!-- Form Header -->
+        <div class="form-header">
+            <h1>Create Account</h1>
+        </div>
+
+        <!-- Form Body -->
+        <div class="form-body">
+            <div class="row">
+                <div class="form-group">
+                    <label for="firstname">First name *</label>
+                    <input type="text" id="firstname" placeholder="enter your first name" required>
+                </div>
+                <div class="form-group">
+                    <label for="lastname">Last name</label>
+                    <input type="text" id="lastname" placeholder="enter your last name">
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="form-group full-width">
+                    <label for="email">Email*</label>
+                    <input type="email" id="email" placeholder="enter your email" required>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="form-group">
+                    <label for="password">Password *</label>
+                    <input type="password" id="password" placeholder="enter your password" required>
+                </div>
+                <div class="form-group">
+                    <label for="confirm-password">Confirm Password *</label>
+                    <input type="password" id="confirm-password" placeholder="enter your password again" required>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="form-group">
+                    <label>Gender:</label>
+                    <div class="inline-options">
+                        <label><input type="radio" name="gender" value="male"> Male</label>
+                        <label><input type="radio" name="gender" value="female"> Female</label>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label>Hobbies</label>
+                    <div class="inline-options">
+                        <label><input type="checkbox" name="hobbies" value="music"> Music</label>
+                        <label><input type="checkbox" name="hobbies" value="sports"> Sports</label>
+                        <label><input type="checkbox" name="hobbies" value="travel"> Travel</label>
+                        <label><input type="checkbox" name="hobbies" value="movies"> Movies</label>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="form-group">
+                    <label for="income-source">Source of Income</label>
+                    <select id="income-source">
+                        <option value="employed">Employed</option>
+                        <option value="self-employed">Self-Employed</option>
+                        <option value="student">Student</option>
+                        <option value="unemployed">Unemployed</option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <label for="income">Income</label>
+                    <div class="range-group">
+                        <input type="range" id="income" min="0" max="100" value="20"
+                            oninput="document.getElementById('range-val').innerText = this.value + 'K'">
+                        <span id="range-val" class="range-badge">20K</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="form-group">
+                    <label for="profile-pic">Upload Profile Picture</label>
+                    <input type="file" id="profile-pic">
+                </div>
+                <div class="form-group">
+                    <label for="age">Age</label>
+                    <input type="number" id="age" value="18" min="1" max="120">
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="form-group full-width">
+                    <label for="bio">Bio</label>
+                    <textarea id="bio" rows="4"></textarea>
+                </div>
+            </div>
+        </div>
+
+        <!-- Form Footer -->
+        <div class="form-footer">
+            <button type="submit" class="btn-submit">Create</button>
+        </div>
+    </form>
+
+</body>
+
+</html>
