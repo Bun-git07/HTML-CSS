@@ -60,7 +60,7 @@ function challenge6(votes = ['A', 'B', 'A', 'C', 'A']) {
         return "There is no vote yet";
     }
 
-    let countA = 0, countB = 0, countC = 0;
+    let countA = 0, countB = 0, countC = 0;b
     for (let i = 0; i < votes.length; i++) {
         if (votes[i] === 'A') {
             countA++;

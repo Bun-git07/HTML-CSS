@@ -1,0 +1,50 @@
+input:focus {
+    outline: none;
+    border: 2px solid #1bba93;
+    background-color: #f0fdf9;
+}
+
+button {
+    background-color: #1bba93;
+    color: white;
+    transition: 0.3s;
+}
+
+
+button:hover {
+    background-color: #148f70;
+    cursor: pointer;
+}
+.search-bar {
+    padding: 10px 16px;
+    border: 1px solid #ddd;
+    border-radius: 25px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    outline: none;
+}
+
+input[type="checkbox"]:checked+span {
+    color: #1bba93;
+    font-weight: bold;
+    text-decoration: underline;
+}
+input[type="checkbox"] {
+    appearance: none;
+    width: 18px;
+    height: 18px;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+
+input[type="checkbox"]:checked {
+    background-color: #1bba93;
+    border-color: #1bba93;
+}
+
+
+input[type="checkbox"]:indeterminate {
+    background-color: #f59e0b;
+    border-color: #f59e0b;
+}
