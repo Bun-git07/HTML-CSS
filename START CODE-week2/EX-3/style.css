@@ -11,10 +11,9 @@ button{
 button:hover{
     background-color: purple;
     color: white;
-    border: 5px solid blue;
+    border: 5px solid palevioletred;
     padding: 20px 50px;
     border-radius: 28px;
-    font-size: 30px;
-    transition: 2s;
+    font-size: 18px;
     font-weight: 700;
 }
